@@ -1,1 +1,2 @@
 # jayshankarpure
+theme : minima
