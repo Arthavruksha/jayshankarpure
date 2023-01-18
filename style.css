@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#hero {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#about {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#services {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#services h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+}
+
+#services li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#testimonials {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#testimonials blockquote {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#testimonials cite {
+  font-style: normal;
+}
+
+#contact {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
