@@ -1,3 +1,3 @@
-# Personal Portfolio Website of Jay Shankarpure
+# hi
 
 https://jayshankarpure.me/
